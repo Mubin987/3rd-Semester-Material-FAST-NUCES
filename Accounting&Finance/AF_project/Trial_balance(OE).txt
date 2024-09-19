@@ -1,0 +1,17 @@
+Cash,DR,17300
+Accounts Receivable,DR,13100
+Prepaid Insurance,DR,2600
+Office Supplies,DR,300
+Building,DR,380000
+Accumulated Depreciation Building,CR,325000
+Accounts Payable,CR,4500
+Salaries Payable,CR,1960
+Unearned Revenue,CR,2800
+Common Stock,CR,63750
+Capital,CR,5000
+Service Revenue,CR,17500
+Salaries Expense,DR,5260
+Insurance Expense,DR,
+Depreciation Expense Building,DR,
+Advertising Expense,DR,950
+Supplies Expense,DR,1000

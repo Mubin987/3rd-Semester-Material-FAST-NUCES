@@ -1,0 +1,17 @@
+Cash,DR,10800,Ast
+Accounts Receivable,DR,13100,Ast
+Prepaid Insurance,DR,1300,Ast
+Office Supplies,DR,1300,Ast
+Building,DR,380000,Ast
+Accumulated Depreciation Building,CR,325000,Ast
+Accounts Payable,CR,4500,Lib
+Salaries Payable,CR,1860,Lib
+Unearned Revenue,CR,1800,Lib
+Common Stock,CR,63750,Equ
+Dividends,DR,1500,own
+Service Revenue,CR,18500,Rev
+Salaries Expense,DR,5160,Exp
+Insurance Expense,DR,1300,Exp
+Depreciation Expense Building,DR,0,Exp
+Advertising Expense,DR,950,Exp
+Supplies Expense,DR,0,Exp

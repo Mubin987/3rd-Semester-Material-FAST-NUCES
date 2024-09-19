@@ -1,0 +1,40 @@
+INCLUDE irvine32.inc
+.data
+
+.code
+MAIN PROC
+mov ax,1001b
+ADC bx,ax
+rcr bx,1
+shl bx,1
+mov ax,bx
+call writebin
+call DUMPREGs
+exit
+main endp
+end main
+
+INCLUDE irvine32.inc
+.data
+var1 word 50
+var2 word 5
+var3 word 10
+.code
+main PROC
+mov dx,0
+mov ax,var2
+mov bx,var3
+div bx
+mov bx,ax
+call dumpregs
+mov dx,0
+mov ax,var1
+mov cx,var2
+div cx
+call dumpregs
+mul bx;
+call dumpregs
+call crlf
+exit
+main endp
+end main
